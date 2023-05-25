@@ -1,0 +1,18 @@
+.col{
+    padding:.5%;
+    
+}
+.card-body{
+    padding:3%;
+    
+}
+.container-fluid{
+    background-image :url('/assets/11062b_4b7c9a8e48334d5aad2fd274fddba3bc~mv2.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: cover;
+    /* height:899px; */
+    height: auto;
+    width:100%;
+    
+}

@@ -1,0 +1,68 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary nav-bg " 
+(scroll)="onscroll()" [ngClass]="navberfixed?'fixed':'nofixed'">
+    <div class="container-fluid">
+        <div class="col-sm-6">
+      <a class="navbar-brand" href="#"><picture class="logo-size">
+        <source srcset="/assets/logomyportfolio.png" type="image/svg+xml">
+        <img src="https://github.io/assets/logomyportfolio.png" class="img-fluid img-thumbnail" alt="portfolio_logo">
+    </picture></a>
+      
+    </div>
+    <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button> 
+    <div class="col-sm-6 collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/index">Home&nbsp;&nbsp;</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/about">About&nbsp;&nbsp;</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/project">Project&nbsp;&nbsp;</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact">Contact&nbsp;&nbsp;</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+<!--   
+<div class="container-fluid nav-item">
+    <div class="row">
+        <div class="col-6">
+            <div class="col-6">
+                <div class="col-6">
+                    <picture class="logo-size">
+                        <source srcset="/assets/logomyportfolio.png" type="image/svg+xml">
+                        <img src="/assets/logomyportfolio.png" class="img-fluid img-thumbnail" alt="portfolio_logo">
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+        </div>
+
+    </div>
+</div> -->

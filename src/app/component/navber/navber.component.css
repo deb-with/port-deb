@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+.navbar{
+    background-image :url('https://static.wixstatic.com/media/11062b_4b7c9a8e48334d5aad2fd274fddba3bc~mv2.jpg/v1/fill/w_1905,h_843,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_4b7c9a8e48334d5aad2fd274fddba3bc~mv2.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* display: block; */
+    /* position: relative; */
+    padding: 10px 16px;
+
+}
+
+.nav-link{
+    color: #3CB371;
+}
+
+.logo-size img{
+    width:5rem;
+    height:100%;
+}
+.nav-bg{
+    border-radius: 2px;
+    border: 0.5px solid #8f8a8a;
+    display: block;
+    /* background-color: #f8f6f6; */
+}
+
+.fixed{
+    position: fixed;
+    width:100%;
+    transition: 0.2s linear;
+    top: 0px;
+}
+.nofixed{
+    position:static;
+    transition: 0.2s linear;
+    top: -50px;
+}
+

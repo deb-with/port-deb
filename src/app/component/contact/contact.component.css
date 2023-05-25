@@ -1,0 +1,45 @@
+/* 
+.form-area{
+    border: 0.5px solid #000;
+    border-radius: 1%;
+} */
+
+.section,.form-area{
+    background-image :url('/assets/multicolor_navber.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: cover;
+    /* height:899px; */
+    height: auto;
+    width:100%;
+}
+.text{
+    text-align: center;
+    padding: 5rem;
+}
+.label{
+    display: flex;
+    font-weight: bold;
+}
+.filed{
+    padding: 2%;
+}
+.name-area{
+    width:50%
+
+}
+.email-area{
+    width:50%
+    
+}
+.message-area{
+    width: 100%;
+    height:15vh;
+
+}
+
+button{
+    padding: 1rem;
+    /* width: 10%; */
+    /* height: 50%; */
+}
